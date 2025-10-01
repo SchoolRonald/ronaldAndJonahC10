@@ -1,6 +1,7 @@
 import java.util.ArrayList;
 
 
+//create a class called scoreTrakker
 public class ScoreTrakker {
 	private ArrayList<Student> students = new ArrayList<>();
 	
