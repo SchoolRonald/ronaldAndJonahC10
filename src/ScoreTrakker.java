@@ -23,22 +23,9 @@ public class ScoreTrakker {
 		FileReader reader = null;
 		Scanner in = null;
 
-		// open file and catch error if no file
-		try {
-			
-			//create a new reader and scanner for the file
-			reader = new FileReader(fileName);
-			in = new Scanner(reader);
-			
-		} catch (FileNotFoundException e) {
-			
-			// throws exception and sends message
-			System.out.println("\nCan't open file: " + fileName);
-			
-			//return if there isn't a file that was found
-			return;
-			
-		}
+		//declare the filereader and scanner
+		reader = new FileReader(fileName);
+		in = new Scanner(reader);
 
 		
 		// While loop to go through the file and add students to list
