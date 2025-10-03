@@ -84,7 +84,7 @@ public class ScoreTrakker {
 			//catches filenotfound exception
 			} catch (FileNotFoundException e) {
 				// throws exception and sends message
-				System.out.println("\n\n Can't open file: " + file);
+				System.out.println("\nCan't open file: " + file);
 			}
 		}
 	}
